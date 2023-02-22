@@ -35,8 +35,8 @@ class TaskController extends Controller
      */
     public function store(Request $request)
     {
-        $task_name = $request->input('task_name');
-        dd($task_name);
+        // $task_name = $request->input('task_name');
+        // dd($task_name);
         //モデルをインスタンス化
         $task = new Task;
         //モデル->カラム名 = 値 で、データを割り当てる
